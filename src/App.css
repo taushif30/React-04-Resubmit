@@ -1,4 +1,107 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Bungee+Shade&family=Cedarville+Cursive&family=Lumanosimo&family=Pacifico&family=Tilt+Prism&display=swap');
+
+.link{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  color: white;
+  background-color: darkblue;
+  /* height: 50px; */
+  font-size: xx-large;
+  width: 100%;
+}
+
+.link a{
+  font-family: 'Cedarville Cursive', cursive;
+  text-decoration: none;
+  color: pink;
+
+}
+
+.studentTop{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.studentTop button{
+  height: 40px;
+  width: 150px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.studentTop button:hover{
+  background-color: aquamarine;
+}
+
+.studentDown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentDown table{
+  background-color: aliceblue;
+  height: 380px;
+  width: 900px;
+  text-align: center;
+}
+
+.studentDown td,th{
+  border-bottom: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +138,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
